@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Halaman-1" id="sIHsODMN7ZJPQNhCEsf6">
-    <mxGraphModel dx="1588" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,6 +148,102 @@
             <mxGeometry x="17.75" y="15" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="585" width="135.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-48" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-47">
+          <mxGeometry width="135.5" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="Pilihan 0" placeholders="1" name="Variable" id="0Expj8zEoIa1RJiwne8Q-49">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-47">
+            <mxGeometry x="17.810000000000002" y="27.5" width="104.37" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="531" y="585" width="135.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-54" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-53">
+          <mxGeometry width="135.5" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="Pilihan 2" placeholders="1" name="Variable" id="0Expj8zEoIa1RJiwne8Q-55">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-53">
+            <mxGeometry x="17.810000000000002" y="27.5" width="104.37" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="341" y="585" width="135.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-57" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-56">
+          <mxGeometry width="135.5" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="Pilihan 1" placeholders="1" name="Variable" id="0Expj8zEoIa1RJiwne8Q-58">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-56">
+            <mxGeometry x="17.810000000000002" y="27.5" width="104.37" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-60" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0Expj8zEoIa1RJiwne8Q-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229" y="675" as="sourcePoint" />
+            <mxPoint x="470" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="228.5" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Tidak" placeholders="1" name="Variable" id="0Expj8zEoIa1RJiwne8Q-61">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="20" y="710" width="130" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="810" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-67" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-66">
+          <mxGeometry width="140" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Masukkan jumlah barang" placeholders="1" name="Variable" id="0Expj8zEoIa1RJiwne8Q-68">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-66">
+            <mxGeometry x="5" y="15" width="130" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-70" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="0Expj8zEoIa1RJiwne8Q-70" source="0Expj8zEoIa1RJiwne8Q-64" target="0Expj8zEoIa1RJiwne8Q-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-64" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-70">
+          <mxGeometry width="140" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Masukkan nama barang" placeholders="1" name="Variable" id="0Expj8zEoIa1RJiwne8Q-65">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="0Expj8zEoIa1RJiwne8Q-70">
+            <mxGeometry x="5" y="15" width="130" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-72" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="675" as="sourcePoint" />
+            <mxPoint x="510" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-74" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.571;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0Expj8zEoIa1RJiwne8Q-54" target="0Expj8zEoIa1RJiwne8Q-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="685" as="sourcePoint" />
+            <mxPoint x="520" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Expj8zEoIa1RJiwne8Q-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Expj8zEoIa1RJiwne8Q-64" target="0Expj8zEoIa1RJiwne8Q-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="730" as="sourcePoint" />
+            <mxPoint x="520" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
