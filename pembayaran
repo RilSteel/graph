@@ -1,9 +1,76 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="Halaman-1" id="IEbImAAjxo2lkbduZy6D">
-    <mxGraphModel>
+    <mxGraphModel dx="927" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xBoMpbAo3um0BTLanb5v-3" value="Masukkan&lt;br&gt;Nomor Minuman" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-4" value="&lt;b&gt;START&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xBoMpbAo3um0BTLanb5v-4" target="xBoMpbAo3um0BTLanb5v-3">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="400" y="100" as="sourcePoint" />
+            <mxPoint x="360" y="120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-8" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xBoMpbAo3um0BTLanb5v-3" target="xBoMpbAo3um0BTLanb5v-10">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="180" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-9" value="&amp;lt; 1 or &amp;gt; 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xBoMpbAo3um0BTLanb5v-8">
+          <mxGeometry x="-0.7248" y="-2" relative="1" as="geometry">
+            <mxPoint x="-56" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-15" value="Masukkan&lt;div&gt;Jumlah beli&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-16" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xBoMpbAo3um0BTLanb5v-3" target="xBoMpbAo3um0BTLanb5v-15">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="510" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-19" value="&amp;gt; 1 or &amp;lt; 6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xBoMpbAo3um0BTLanb5v-16">
+          <mxGeometry x="-0.5098" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-17" value="Output&lt;div&gt;Struk&amp;nbsp;&lt;/div&gt;&lt;div&gt;pembelian&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-20" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.413;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="400.65" y="449.99999999999994" as="sourcePoint" />
+            <mxPoint x="399.35" y="510.96" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-5" value="&lt;b&gt;END&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="700" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-10" value="Pilihan tidak&lt;div&gt;tersedia!&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xBoMpbAo3um0BTLanb5v-13" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xBoMpbAo3um0BTLanb5v-5">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="100" y="640" as="sourcePoint" />
+            <mxPoint x="210" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
