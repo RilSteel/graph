@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Halaman-1" id="mRXUVVt0Z1CRouVqb5Yb">
-    <mxGraphModel dx="749" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="715" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,6 +38,18 @@
         </mxCell>
         <mxCell id="6v8h-YrekyooNEP45oSq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.546;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6v8h-YrekyooNEP45oSq-15" target="6v8h-YrekyooNEP45oSq-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6v8h-YrekyooNEP45oSq-24" target="6v8h-YrekyooNEP45oSq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-24" value="Faktur digital distempel&amp;nbsp;&lt;div&gt;manual dan dikirim ulang&lt;/div&gt;&lt;div&gt;apotek -&amp;gt; distributor&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.585;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6v8h-YrekyooNEP45oSq-18" target="6v8h-YrekyooNEP45oSq-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-26" value="Pemesanan obat&lt;div&gt;sudah tiba di apotek&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="590" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
