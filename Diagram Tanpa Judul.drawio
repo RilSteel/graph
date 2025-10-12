@@ -48,8 +48,20 @@
         <mxCell id="6v8h-YrekyooNEP45oSq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.585;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6v8h-YrekyooNEP45oSq-18" target="6v8h-YrekyooNEP45oSq-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6v8h-YrekyooNEP45oSq-26" target="6v8h-YrekyooNEP45oSq-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6v8h-YrekyooNEP45oSq-26" value="Pemesanan obat&lt;div&gt;sudah tiba di apotek&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="590" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-28" value="Pencatatan Fisik Obat&lt;div&gt;yang akan memverifikasi&lt;/div&gt;&lt;div&gt;pengiriman serta kondisi obat&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="438.75" y="710" width="192.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-30" value="Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="505" y="860" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6v8h-YrekyooNEP45oSq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6v8h-YrekyooNEP45oSq-28" target="6v8h-YrekyooNEP45oSq-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
