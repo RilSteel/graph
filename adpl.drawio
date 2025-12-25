@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="ys-nMkfm5VaQSPh8Bkzi">
+    <mxGraphModel dx="778" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="imREm6oPwS6wDkAOuI8i-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Data_Apotek" vertex="1">
+          <mxGeometry height="350" width="150" x="30" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-2" parent="imREm6oPwS6wDkAOuI8i-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ NIP&lt;br&gt;+ nama_pasien&lt;br&gt;+ umur&lt;div&gt;+ alamat&lt;/div&gt;&lt;div&gt;+ no_telp&lt;/div&gt;&lt;div&gt;+ tanggal_kunjungan&lt;/div&gt;&lt;div&gt;+ keluhan&lt;/div&gt;&lt;div&gt;+ jenis_konsultasi&lt;/div&gt;&lt;div&gt;+ nama_dokter&lt;/div&gt;&lt;div&gt;+ jadwal_konsultasi&lt;/div&gt;&lt;div&gt;+ biaya_konsultasi&lt;/div&gt;&lt;div&gt;+ nama_obat&lt;/div&gt;&lt;div&gt;+ jenis_obat&lt;/div&gt;&lt;div&gt;+ jumlah_obat&lt;/div&gt;&lt;div&gt;+ harga_obat&lt;/div&gt;&lt;div&gt;+ total_pembayaran&lt;/div&gt;&lt;div&gt;+ metode_pembayaran&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="150" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-43" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Data_Apotek_1NF" vertex="1">
+          <mxGeometry height="350" width="145" x="220" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-44" parent="imREm6oPwS6wDkAOuI8i-43" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ NIP&lt;br&gt;+ nama_pasien&lt;br&gt;+ umur&lt;div&gt;+ alamat&lt;/div&gt;&lt;div&gt;+ no_telp&lt;/div&gt;&lt;div&gt;+ tanggal_kunjungan&lt;/div&gt;&lt;div&gt;+ keluhan&lt;/div&gt;&lt;div&gt;+ jenis_konsultasi&lt;/div&gt;&lt;div&gt;+ nama_dokter&lt;/div&gt;&lt;div&gt;+ jadwal_konsultasi&lt;/div&gt;&lt;div&gt;+ biaya_konsultasi&lt;/div&gt;&lt;div&gt;+ nama_obat&lt;/div&gt;&lt;div&gt;+ jenis_obat&lt;/div&gt;&lt;div&gt;+ jumlah_obat&lt;/div&gt;&lt;div&gt;+ harga_obat&lt;/div&gt;&lt;div&gt;+ total_pembayaran&lt;/div&gt;&lt;div&gt;+ metode_pembayaran&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="145" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-46" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pasien" vertex="1">
+          <mxGeometry height="150" width="145" x="425" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-47" parent="imREm6oPwS6wDkAOuI8i-46" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ NIP (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nama_pasien&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ umur&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ alamat&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ no_telp&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="145" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-48" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Obat" vertex="1">
+          <mxGeometry height="110" width="140" x="610" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-49" parent="imREm6oPwS6wDkAOuI8i-48" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nama_obat (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ jenis_obat&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ harga_obat&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-52" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Kunjungan_Konsultasi" vertex="1">
+          <mxGeometry height="200" width="155" x="425" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-53" parent="imREm6oPwS6wDkAOuI8i-52" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ id_kunjungan (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ NIP (FK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ tanggal_kunjungan&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ keluhan&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ jenis_konsultasi&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nama_dokter&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ jadwal_konsultasi&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ biaya_konsultasi&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="155" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-54" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Transaksi_Obat" vertex="1">
+          <mxGeometry height="160" width="160" x="630" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-55" parent="imREm6oPwS6wDkAOuI8i-54" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ id_transaksi (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ NIP (FK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nama_obat (FK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ jumlah_obat&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ total_pembayaran&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ metode_pembayaran&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-56" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Registrasi_User" vertex="1">
+          <mxGeometry height="200" width="155" x="30" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="imREm6oPwS6wDkAOuI8i-57" parent="imREm6oPwS6wDkAOuI8i-56" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ id_kunjungan (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ NIP (FK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ tanggal_kunjungan&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ keluhan&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ jenis_konsultasi&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nama_dokter&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ jadwal_konsultasi&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ biaya_konsultasi&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="155" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
