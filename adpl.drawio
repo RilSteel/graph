@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="ys-nMkfm5VaQSPh8Bkzi">
-    <mxGraphModel dx="778" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1111" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
           <mxGeometry height="120" width="170" y="50" as="geometry" />
         </mxCell>
         <mxCell id="lzPdcZ2h4r35zZsy5Ri3-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Transaksi_Konsultasi" vertex="1">
-          <mxGeometry height="170" width="182.5" x="530" y="905" as="geometry" />
+          <mxGeometry height="170" width="182.5" x="530" y="890" as="geometry" />
         </mxCell>
         <mxCell id="lzPdcZ2h4r35zZsy5Ri3-8" parent="lzPdcZ2h4r35zZsy5Ri3-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ id_transaksi_kons (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ id_daftar_kons (FK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nominal&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ metode_pembayaran&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ status_pembayaran&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ tgl_pembayaran&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="182.5" y="50" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry height="120" width="170" y="50" as="geometry" />
         </mxCell>
         <mxCell id="lzPdcZ2h4r35zZsy5Ri3-15" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Obat" vertex="1">
-          <mxGeometry height="210" width="170" x="820" y="680" as="geometry" />
+          <mxGeometry height="210" width="170" x="536.25" y="1110" as="geometry" />
         </mxCell>
         <mxCell id="lzPdcZ2h4r35zZsy5Ri3-16" parent="lzPdcZ2h4r35zZsy5Ri3-15" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ id_obat (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nama_obat&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ jenis_obat&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ no_batch&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ tgl_kadaluarsa&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ stok&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ harga&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ lokasi_rak&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ status_obat&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="170" y="50" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry height="130" width="172.5" y="50" as="geometry" />
         </mxCell>
         <mxCell id="lzPdcZ2h4r35zZsy5Ri3-19" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Berkas_Pembelian" vertex="1">
-          <mxGeometry height="150" width="172.5" x="820" y="940" as="geometry" />
+          <mxGeometry height="150" width="172.5" x="760" y="680" as="geometry" />
         </mxCell>
         <mxCell id="lzPdcZ2h4r35zZsy5Ri3-20" parent="lzPdcZ2h4r35zZsy5Ri3-19" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;+ id_berkas (PK)&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nama_supplier&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ nomor_faktur&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ tgl_datang&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;+ file_faktur&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="172.5" y="50" as="geometry" />
@@ -107,6 +107,31 @@
               <mxPoint x="268" y="1210" />
               <mxPoint x="225" y="1210" />
               <mxPoint x="225" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lzPdcZ2h4r35zZsy5Ri3-26" edge="1" parent="1" source="lzPdcZ2h4r35zZsy5Ri3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.021;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" target="lzPdcZ2h4r35zZsy5Ri3-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="481" y="765" />
+              <mxPoint x="481" y="744" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lzPdcZ2h4r35zZsy5Ri3-27" edge="1" parent="1" source="lzPdcZ2h4r35zZsy5Ri3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.021;entryY=0.142;entryDx=0;entryDy=0;entryPerimeter=0;" target="lzPdcZ2h4r35zZsy5Ri3-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="970" />
+              <mxPoint x="480" y="747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lzPdcZ2h4r35zZsy5Ri3-30" edge="1" parent="1" source="lzPdcZ2h4r35zZsy5Ri3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" target="lzPdcZ2h4r35zZsy5Ri3-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="1000" />
+              <mxPoint x="485" y="1000" />
+              <mxPoint x="485" y="1176" />
             </Array>
           </mxGeometry>
         </mxCell>
